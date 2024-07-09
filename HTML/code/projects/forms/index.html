@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        button{
+            color:black;
+            background-color: yellow;
+            width: 80px;
+            height: 30px;
+            border-radius: 10px;
+            border: 0;
+            font-size: small;
+            
+            cursor: pointer;
+            
+
+        }
+        
+        fieldset{
+            border-radius: 10px;
+            margin-inline-end: 1100px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <fieldset >
+        <legend><h1>Signup</h1></legend>
+        <form action="main.java" method="post">
+            <div>
+                <h3><u>
+                    Enter your details below
+                </u></h3>
+            </div>
+            <div class="name">
+                <label for="Name">Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="Name" placeholder="Enter Your Name" name="fullname"><br><br>
+            </div>
+        
+            <div class="Email">
+                
+            <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" id="email" placeholder="Enter Your Email" name="Email"><br><br>
+            </div>
+            
+            <div class="password">
+                <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Your Password" name="Password"><br><br>
+            </div>
+        
+            <div class="re-enter password">
+                <label for="re-enter password">Re-enter <br>Password:</label>
+                <input type="password" id="re-enter password"
+                name="re-enter password" placeholder="Re-enter Your Password"> <br><br>
+            </div>
+             
+            <div>
+                <label for="date of birth">D.O.B:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" name="date of birth" id="date of birth"> <br><br>
+            </div>
+        
+            <div class="radio">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <br><br>
+            </div>
+        
+             <button type="reset">RESET</button> <br><br>
+            <button type="submit" >SIGN IN</button>
+            
+            </form>
+            
+    </fieldset>
+    
+    
+</body>
+</html>
