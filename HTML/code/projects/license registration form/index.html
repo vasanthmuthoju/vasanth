@@ -6,7 +6,7 @@
     <title>Driving license registration form</title>
     
     <style>
-        i{
+        em{
             color: red;
             text-align: center;
         }
@@ -17,12 +17,17 @@
         h3{
             color: blue;
         }
-        div{
+        #agree{
+            text-align: center;
+        }
+        #buttons{
             text-align: center;
         }
     </style>
+    
 </head>
 <body>
+    
     <form action="main.java" method="get">
         <fieldset>
             <legend>
@@ -38,6 +43,7 @@
                         
                         <option value="male">Mr.</option>
                         <option value="Female">Mrs.</option>
+                        
                     </optgroup>
                 </select> &nbsp;
                 
@@ -71,7 +77,7 @@
                 <br><br>
 
                 <label for="email">Email Address:*</label>
-                <input type="email" id="email" name="email" placeholder="Enter Your Email Address"> <br><br>
+                <input required type="email" id="email" name="email" placeholder="Enter Your Email Address"> <br><br>
 
                 <label for="mobile number">Contact no:*</label>
                 <input type="tel" id="mobile number" name="mobile number" required  placeholder="Enter Your Contact Number" maxlength="10" pattern="[0-9]{10}"><br><br><hr>
@@ -123,22 +129,22 @@
                 <label><strong>Present Address:</strong></label>
                 
                 
-                    <i>
+                    <em>
                         <p>
                             *Present Address Will Be Printed On Driving License*
                         </p>
-                    </i>
+                    </em>
                 <br>
 
                 <label for="Present address">Present  Address:*</label>
                 <input type="text" required id="Present address" name="Present address" placeholder="Enter Your Present Address"><br><br>
                 
                 <label for="Country">Country:</label>
-                <input type="text" id="Country" readonly name="Country" value="India"> &nbsp;
+                <input type="text" id="Country"  name="Country" disabled  value="India"> &nbsp;
 
 
                 <label for="state">State:</label>
-                <input type="text" id="state" readonly name="state" value="Telangana">
+                <input type="text" id="state" disabled name="state" value="Telangana">
 
                 <!-- <label for="State">State:</label>
                 <select name="State" id="State">
@@ -199,7 +205,7 @@
                         <option value="Pan card">Pan card</option>
                     </optgroup>
 
-                </select> 
+                </select> &nbsp;
 
                 <label for="upload address proof">Upload Address proof:*</label>
                 <input required type="file" name="address proof" id="upload address proof"><br><br>
@@ -208,7 +214,9 @@
                 <select name="age proof" id="age proof">
                     <optgroup>
                         <option value="selected">--Select Age Proof--</option>
+
                         <option value="Birth Certificate">Birth Certificate</option>
+
                         <option value="10th Mark Sheet">10th Mark Sheet</option>
                     </optgroup>
                 </select> 
@@ -226,13 +234,13 @@
             <br><br>    
             <footer>
                 <br>
-                <div>
-                    <input required type="checkbox" name="agree to the terms of service" id="terms">
+                <div class="ab" id="agree">
+                    <input required type="checkbox" name="agree to the terms and conditions" id="terms">
                     <label for="terms">I AGREE TO THE <a href="https://www.transport.telangana.gov.in/html/terms-and-conditions.html" target="_blank">TERMS AND CONDITIONS</a>*</label>
-                </div>
+                </div >
                     <br><br>
 
-                    <div>
+                    <div class="ab" id="buttons">
                         <button type="reset">Reset</button> &nbsp;&nbsp;
                         <button type="submit">Submit</button>
                     </div>
