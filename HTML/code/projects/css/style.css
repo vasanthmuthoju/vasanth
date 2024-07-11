@@ -1,0 +1,24 @@
+img{
+    height: 34vh;
+}
+body{
+    line-height: 1.6;
+    text-align: center;
+    
+}
+.caption{
+    background-color: rgba(255, 0, 0, 0.274);
+    text-transform: uppercase;
+    margin-top: 3rem;
+    
+}
+.about{
+    background-color: rgba(255, 228, 196, 0.493);
+    border-radius: 2em;
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    box-shadow:  0 0 50px rgba(0, 0, 0, 0.2); 
+}
