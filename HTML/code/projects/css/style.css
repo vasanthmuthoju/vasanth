@@ -1,29 +1,108 @@
+html{
+    scroll-behavior: smooth;
+}
 img{
     height: 34vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+    color:rgba(255, 255, 255, 0.83);
+    font-weight: 100; 
+}
+p{
+    background-color:rgba(255, 255, 255, 0.83) ;
+}
+.heading{
+    background-color:rgba(255, 255, 255, 0.83) ;
+    color: black;
+    padding: 50px;
+}
+a{
+   text-decoration: none;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px; 
+   
+}
+.aawards{
+    text-align: center;
+}
+
+.a{
+    color: black;
+    font-weight: 800;
+    
+
+}
+
+.name{
+    font-weight: 700;
+    text-shadow: 2px 2px 5px;
+    color: rgba(255, 255, 255, 0.83);
 }
 body{
     line-height: 1.6;
     text-align: center;
+    background-color: rgb(0, 0, 0);
+    
+    
     
 }
 .caption{
-    background-color: rgba(255, 0, 0, 0.274);
-    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.83);
+    font-size: larger;
     margin-top: 30px;
     margin-left: 200px;
     margin-right: 200px;
-    border-radius: 20px;
-    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    
+    
     
 }
 .about{
-    background-color: rgba(255, 228, 196, 0.493);
-    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.83);
+    border-radius: 10px;
     height: 100%;
     padding: 50px;
+    padding-top: 20px;
     margin: 50px;
     margin-left: 200px;
     margin-right: 200px;
     
-    box-shadow: 70px 60px 60px rgba(212, 12, 12, 0.2); 
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.2); 
+}
+#media{
+    background-color:rgba(255, 255, 255, 0.83) ;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    border-radius: 20px;
+}
+#movies{
+    background-color:rgba(255, 255, 255, 0.83) ;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    border-radius: 20px;
+}
+#awards{
+    background-color: rgba(255, 255, 255, 0.83);
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+#activities{
+    background-color: rgba(255, 255, 255, 0.83);
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    border-radius: 20px;
 }
