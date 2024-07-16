@@ -85,4 +85,8 @@ li{
 .col4{
     border: none;
 }
+::marker{
+    color:hsl(14, 45%, 36%) ;
+    font-weight: 600;
+}
   
