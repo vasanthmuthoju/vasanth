@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.main{
+    border-radius: 15px;
+    display: flex;
+    height: 55%;
+    width: 50%;
+    
+}
+.sedans{
+    
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding: 35px; 
+    
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding: 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.h1{
+    padding-top: 5px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+.para{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    line-height: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+img{
+    height: 10%;
+    width: 30%;
+}
+.buttons{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-top: 45px;
+}
+button{
+    padding-left: 25px;
+    padding-right:25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+}
+.sed{
+    color: hsl(31, 77%, 52%);
+    font-weight: 700;
+}
+.suv{
+    color: hsl(184, 100%, 22%);
+    font-weight: 700;
+}
+.lux{
+    color: hsl(179, 100%, 13%);
+    font-weight: 700;
+}
