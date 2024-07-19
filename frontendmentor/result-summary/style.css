@@ -18,7 +18,7 @@ body{
 }
 .main-container{
     box-shadow: 10px 10px 20px 0px hsl(221, 100%, 96%);
-    width: 45%;
+    width: 47%;
     display: flex;
     border-radius: 25px;
     
@@ -97,7 +97,7 @@ body{
     justify-content: center;
     align-items: baseline;
     gap: 150px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 15px;
     
    
@@ -105,7 +105,7 @@ body{
 .reaction-total{
     display: flex;
 }
-.reaction-tag{
+.reaction-tag {
     color: hsl(0, 100%, 67%);
     
 }
@@ -116,7 +116,7 @@ body{
     justify-content: center;
     align-items: baseline;
     gap: 150px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 15px;
 }
 .memory-total{
@@ -131,7 +131,7 @@ body{
     justify-content: center;
     align-items: baseline;
     gap: 150px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 15px;
 }
 .verbal-total{
@@ -146,8 +146,9 @@ body{
     justify-content: center;
     align-items: baseline;
     gap: 150px;
-    padding: 10px;
+    padding: 15px ;
     border-radius: 15px;
+    margin: 0px;
 }
 .visual-total{
     display: flex;
@@ -177,4 +178,9 @@ button{
     color: white;
     font-weight: 700;
     font-size: 16px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
