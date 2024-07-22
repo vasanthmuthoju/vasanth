@@ -119,19 +119,6 @@ button{
 }
 
 
-@media(min-width:760px){
-    .main{
-        height: 55%;
-        width: 47%;
-    }
-}
-@media(min-width:1480px){
-    .main{
-        height: 55%;
-        width: 23%;
-        
-    }
-}
 
 
 
