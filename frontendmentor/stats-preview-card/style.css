@@ -39,9 +39,10 @@ body{
     
 }
 .box2{
-    height: 61.2vh;
+    height: 60.9vh;
     width: 35vw;
-    background: linear-gradient(rgb(158 7 247 / 50%), rgb(158 7 247 / 50%)), url(images/image-header-desktop.jpg);
+    background: linear-gradient(rgba(128, 10, 197, 0.5),rgba(128, 10, 197, 0.5)), url(images/image-header-desktop.jpg) ;
+    
    background-repeat: no-repeat;
    
     border-top-right-radius: 10px;
