@@ -193,6 +193,7 @@ h3{
     .middletop{
         width: 300px;
         margin: 100px;
+        margin-right: 0px;
     }
     .para{
         width: 300px;

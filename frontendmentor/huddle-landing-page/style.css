@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: fit-content;
+    width: 500px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+  
+    background-color: hsl(257, 40%, 49%);
+}
+.main{
+    height: 98vh;
+    width: 90vw;
+    background-image: url(./images/illustration-mockups.svg);
+    background-position: left 100px top 140px;
+    
+   
+    background-repeat: no-repeat;
+}
+
+.logo{
+    
+   
+   position: relative;
+   left: 100px;
+   top: 30px;
+    
+}
+.container{
+   
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    left:880px ;
+    top: 170px;
+}
+.heading{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.para{
+    
+    color: white;
+    font-weight: 300;
+    line-height: 29px;
+}
+button{
+    width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 4px 4px 5px hsl(300, 16%, 37%);
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+.icons{
+   position: absolute;
+   left: 300px;
+   top: 450px;
+   display: flex;
+   gap: 15px;
+   color: white;
+}
+@media (max-width:900px){
+    body{
+        height: fit-content;
+        width: 100px;
+        background-repeat: repeat-y;
+        
+    }
+    .main{
+        height: 200vh;
+      width: 200vw;
+      
+
+    }
+    .container{
+        position: relative;
+        left: 200px;
+        top: 900px;
+        
+    }
+
+
+}
