@@ -35,7 +35,7 @@ body{
 }
 .container{
    
-    width: 30rem;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -50,15 +50,15 @@ body{
     color: white;
 }
 .para{
-    
+    width: 440px;
     color: white;
     font-weight: 300;
     line-height: 29px;
 }
 button{
-    width: 150px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    width: 170px;
+    padding-top: 18px;
+    padding-bottom: 16px;
     margin-top: 20px;
     border-radius: 50px;
     border: none;
@@ -70,8 +70,8 @@ button:hover{
 }
 .icons{
    position: absolute;
-   left: 300px;
-   top: 450px;
+   left: 400px;
+   top: 500px;
    display: flex;
    gap: 15px;
    color: white;
