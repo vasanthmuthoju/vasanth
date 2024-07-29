@@ -380,6 +380,14 @@ input[type=text],select{
         position: relative;
         left: 550px;
         top: 500px;
+        height: 82vh;
+    }
+    .mobilebc{
+        background-color: hsl(270, 20%, 96%);
+        height: 79vh;
+        border-radius: 20px;
+        
+        
     }
     .right{
         position: relative;
@@ -401,7 +409,7 @@ input[type=text],select{
         width: 20vw;
     }
     input[type=text],select{
-        padding: 13px 8px;
+        padding: 13px 40px;
         margin-left: 5px;
         margin-top: 20px;
         border-radius: 20px;
@@ -409,22 +417,22 @@ input[type=text],select{
     }
     button{
         position: relative;
-        left: 160px;
-        bottom: 36px;
+        left: 220px;
+        bottom: 35px;
     }
     
 }
 @media (max-width:420px){
     .mobile{
-        height: 67vh;
-        width: 65vw;
+        height: 80vh;
+        width: 63vw;
         position: relative;
         left: 500px;
         top: 700px;
     }
     .mobilebc{
         background-color: hsl(270, 20%, 96%);
-        height: 65vh;
+        height: 76vh;
         border-radius: 20px;
         
         
