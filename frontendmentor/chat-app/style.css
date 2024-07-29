@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400,500,700;
+    background-color: white;
+    font-size: 16px;
+    
+   
+}
+.main{
+   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 500px;
+    
+}
+.left{
+    height: 97vh;
+    width:33vw;
+    background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%)  );
+    position: absolute;
+    right: 1100px;
+    bottom: 70px;
+    border-bottom-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+   
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+.right{
+    background-color: hsl(270, 20%, 96%);
+    height: 97vh;
+    width: 25vw;
+    border-top-left-radius: 300px;
+    
+    
+  
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+    
+    grid-column: 2/2;
+    grid-row: 1/1;
+
+}
+.mobilebc{
+    background-color: hsl(270, 20%, 96%);
+    height: 66vh;
+    border-radius: 20px;
+    
+    
+}
+.mobile{
+    
+    width: 17vw;
+    height:69vh;
+    border: 10px solid white;
+    box-shadow: 10px 10px 80px rgb(171, 169, 169);
+    border-radius: 30px;
+    position: relative;
+    left: 440px;
+    top: 190px;
+}
+.rightimg{
+    display: flex;
+    height: 40px;
+   gap: 10px;
+   justify-content: flex-end;
+   margin-top: 15px;
+   margin-right: 10px;
+}
+.rightimg img{
+    border-radius: 10px;
+}
+.avatar img{
+    height: 3.5vh;
+    width: 1.6vw;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px solid white;
+}
+.camera{
+    height: 25px;
+    width: 50%;
+    background-color: white;
+   position: relative;
+    left: 25%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.top::before{
+    content: "\003C";
+    margin-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+.top{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(-45deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%)  );
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: -25px;
+}
+    
+p{
+    color:  hsl(270, 20%, 96%);
+}
+.name{
+    padding-left: 10px;
+    margin-top: 35px;
+    color:hsl(270, 20%, 96%) ;
+    
+}
+.name::after{
+    content: "\22EE";
+
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+}
+h6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 600;
+   
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 10px;
+    color: hsl(276, 100%, 81%);
+   
+}
+.rightmatter{
+    width: 28vw;
+    position: relative;
+    right: 400px;
+    top: 200px;
+}
+.para{
+    line-height: 25px;
+    color: hsl(270, 7%, 64%);
+    
+}
+h1{
+    color: hsl(271, 36%, 24%);
+}
+.chatleft1,.chatleft2,.chatleft3{
+    background-color:hsla(276, 76%, 82%, 0.358);
+    color: hsl(276, 55%, 52%) ;
+    width: 10vw;
+    font-weight: 400;
+    font-size: 8px;
+    padding: 7px;
+   border-end-end-radius: 10px;
+   border-start-end-radius: 10px;
+   border-start-start-radius:10px ;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.chatleft3{
+    width: 8vw;
+}
+.chatright1,.chatright2{
+    background-color:white;
+    color:hsl(271, 15%, 43%) ;
+    width: 10vw;
+    font-weight: 400;
+    font-size: 8px;
+    padding: 7px;
+   border-start-start-radius: 10px;
+   border-end-start-radius: 10px;
+   border-start-end-radius:10px ;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.chatright2{
+    width: 7vw;
+}
+.rightchat{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.chatleft3{
+    margin-top: 15px;
+}
+.radio1,.radio2{
+    background: linear-gradient(-45deg,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    color:hsl(270, 20%, 96%) ;
+   outline: 1px solid  hsl(289, 100%, 72%);
+    width: 10vw;
+    font-weight: 400;
+    font-size: 8px;
+    padding: 7px;
+   border-end-end-radius: 10px;
+   border-start-end-radius: 10px;
+   border-start-start-radius:10px ;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+span{
+    color:white;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.span2{
+    margin-left: 40px;
+}
+button{
+    height: 33px;
+    width: 33px;
+    position: relative;
+    bottom: 35px;
+    left: 195px;
+    
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+
+input[type=text],select{
+    padding: 10px 33px;
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+}
+::placeholder{
+    font-size: 12px;
+    text-align: left;
+}
+@media (max-width:1200px){
+    body{
+        height: 100vh;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        gap: 0px;
+    }
+    .left{
+        grid-column: 1/2;
+        grid-row: 1/1;
+        width: 43vw;
+        height: 100vh;
+        position: absolute;
+        right: 800px;
+    }
+    .right{
+        grid-column: 2/2;
+        grid-row: 1/1;
+        width: 30vw;
+        height: 100vh;
+        position:absolute;
+        left: 900px;
+        top: 100px;
+    }
+    .mobile{
+        width: 25vw;
+        height: 63vh;
+        position: relative;
+        left: 420px;
+        top: 280px;
+    }
+    .mobilebc{
+        background-color: hsl(270, 20%, 96%);
+        height: 61vh;
+        border-radius: 20px;
+        
+        
+    }
+    .right{
+        position: relative;
+        left: 400px;
+        
+        
+    }
+    .rightmatter{
+        position: relative;
+        right: 300px;
+        width: 400px;
+        text-align: left;
+
+    }
+    
+    button{
+        height: 33px;
+        width: 33px;
+        position: relative;
+        bottom:40px;
+        left: 230px;
+        
+        color: white;
+        background-color: black;
+        border-radius: 50px;
+    }
+    .chatleft1,.chatleft2,.chatleft3{
+    
+        width: 10vw;
+        font-size: 10px;
+    
+    }
+    span{
+        color:white;
+        margin-left: 60px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .span2{
+        margin-left: 60px;
+    }
+    input[type=text],select{
+        padding: 13px 40px;
+        margin-left: 5px;
+        margin-top: 30px;
+        border-radius: 20px;
+        border: none;
+    }
+    
+}
+@media (max-width:720px)
+{
+    body{
+        height: 100vh;
+    }
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 0px;
+
+    }
+    .avatar img{
+        width: 4vW;
+    }
+    .left{
+        grid-column: 1/1;
+        grid-row: 2/2;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        right: 300px;
+    }
+    .right{
+        grid-column: 1/1;
+        grid-row: 2/2;
+        width: 50vw;
+        height: 100vh;
+        position:absolute;
+        left: 400px;
+        top: 600px;
+    }
+    .mobile{
+        width: 40vw;
+        position: relative;
+        left: 550px;
+        top: 500px;
+    }
+    .right{
+        position: relative;
+        right: 200px;
+        
+        
+    }
+    .rightmatter{
+        position: relative;
+        right: 300px;
+        width: 500px;
+        text-align: center;
+
+    }
+    .chatleft1,.chatleft2,.chatleft3{
+        width: 20vw;
+    }
+    .radio1,.radio2{
+        width: 20vw;
+    }
+    input[type=text],select{
+        padding: 13px 8px;
+        margin-left: 5px;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    button{
+        position: relative;
+        left: 160px;
+        bottom: 36px;
+    }
+    
+}
+@media (max-width:420px){
+    .mobile{
+        height: 67vh;
+        width: 65vw;
+        position: relative;
+        left: 500px;
+        top: 700px;
+    }
+    .mobilebc{
+        background-color: hsl(270, 20%, 96%);
+        height: 65vh;
+        border-radius: 20px;
+        
+        
+    }
+    
+    .chatleft1,.chatleft2,.chatleft3{
+        width: 30vw;
+    }
+    .rightmatter{
+        position: relative;
+        right: 350px;
+        width: 500px;
+        text-align: center;
+
+    }
+    .chatright1,.chatright2{
+        width: 30vw;
+    }
+    .avatar img{
+        height: 4vh;
+        width: 4vh;
+    }
+    .radio1,.radio2{
+        width: 30vw;
+    }
+    input[type=text],select{
+        padding: 13px 30px;
+        margin-left: 5px;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: none;
+    }
+    button{
+        position: relative;
+        left: 200px;
+        bottom: 40px;
+    }
+}
