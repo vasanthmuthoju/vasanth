@@ -36,6 +36,7 @@ body{
     padding-bottom: 0px;
     padding-right: 40px;
     color: hsl(243, 100%, 93%);
+    box-shadow: 10px 10px 60px hsl(229, 57%, 11%);
     
     
 }
@@ -60,6 +61,7 @@ body{
     border-top-right-radius: 70px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px 60px hsl(229, 57%, 11%);
    
 }
 .logo{
@@ -87,7 +89,7 @@ body{
 .range-container{
     height: 20px;
     width: 530px;
-   background-color: hsl(229, 57%, 11%);
+   background-color: hsla(229, 57%, 11%,0.6);
    border-radius: 20px;
    margin-bottom: 0px;
   
@@ -99,12 +101,14 @@ body{
     border-radius: 20px;
     display: flex;
     flex-direction: row-reverse;
+    border: 2px solid black;
 }
 .range-point{
-    height: 17px;
-    width: 16px;
+    height: 14px;
+    width: 13px;
     border-radius: 10px;
     background-color: white;
+    margin-right: 2px;
     
     
 }
