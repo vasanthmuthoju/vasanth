@@ -210,6 +210,21 @@ h1{
         
         
     }
+    .left{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        background-color: hsl(228, 56%, 26%);
+        height: 180px;
+        padding: 30px;
+        width: 300px;
+        position: relative;
+        top:0px;
+        right: 1px;
+        
+       
+    }
     .range-container{
         height: 20px;
         width: 330px;
@@ -238,10 +253,75 @@ h1{
         gap: 4px;
         position: relative;
         bottom: 140px;
-        left: 200px;
-       
+        left: 200px;   
+    }
+    .storage-left:before{
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid white;
+        border-top: 10px solid white;
+        content: "";
+        position:absolute;
         
+        right: 0px;
+        top: 45px;
+    }
+}
+@media (max-width:420px){
+    .right-inside{
+        background-color:  hsl(228, 56%, 26%);
+        border-radius: 10px;
+        width:330px ;
+        height: 120px;
+        position: relative;
+        left: 5px;
+        top: 15px;
+        padding-left: 22px;
+        padding-top: 13px;
+        padding-bottom: 0px;
+        padding-right: 40px;
+        color: hsl(243, 100%, 93%);
         
         
     }
+    .range-container{
+        height: 20px;
+        width: 290px;
+       background-color: hsl(229, 57%, 11%);
+       border-radius: 20px;
+       margin-bottom: 0px;
+      
+    }
+    .range-slide{
+        height: 18px;
+        width: 230px;
+        background: linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .storage-left{
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        background-color: white;
+        color: hsl(229, 57%, 11%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        position: relative;
+        bottom: 140px;
+        left: 190px;   
+    }
+    .storage-left:before{
+        
+        position:absolute;
+        right: 0.5px;
+        top: 33px;
+    }
+    h1{
+        font-size: medium;
+    }
+   
 }
