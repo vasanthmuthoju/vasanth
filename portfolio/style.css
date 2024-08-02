@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh; 
+   
+    
+}
+nav{
+    background-color: white;
+    width: 100%;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+nav a:hover{
+    background-color: #f0f0f0;
+    
+}
+.sidebar{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+  
+    box-shadow: -10px 0px 10px rgba(0, 0,0, 0.1);
+    background-color:rgba(255, 255, 255, 0.455) ;
+    display: none;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+    backdrop-filter: blur(10px);
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.menu{
+    display: none;
+    
+}
+.xbar:hover{
+    background-color: rgb(230, 15, 15);
+    color: white;
+    
+}
+.xbar{
+    padding-left: 95px;
+}
+.hero{
+    height: 80vh;
+    background-color:#201E43 ;
+    display: flex ;
+    justify-content: end;
+    align-items: center;
+}
+.img{
+    height: 45vh;
+    margin-right: 60px;
+    
+   
+}
+.name{
+    position:absolute;
+    left: 13%;
+    font-size: xx-large;
+    color:#E2E2B6 ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+  font-style: normal;
+}
+.me{
+    color: #508C9B;
+}
+
+
+
+
+@media (max-width: 700px){
+    .hideonmobile{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    
+}
+@media (max-width: 400px){
+    .sidebar{
+        width: 400px;
+    }
+    .menu{
+        display: flex;
+    }
+}

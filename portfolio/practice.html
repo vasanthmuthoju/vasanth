@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+   
+</head>
+<body>
+    
+    <nav >
+        <ul class="sidebar">
+            <li  onclick=hideSidebar() ><a  class="xbar" href="#"><i class="fa-solid fa-xmark"></i></a></li>
+            <li class="hidesidebar"><a href="#">Home</a></li>
+            <li class="hidesidebar" ><a href="#">About</a></li>
+            <li class="hidesidebar" ><a href="#">Skills</a></li>
+            <li class="hidesidebar" ><a href="#">Languages</a></li>
+            <li class="hidesidebar" ><a href="#">Hobbies</a></li>
+           
+        </ul>
+        <ul   >
+            <li class="hideonmobile"><a href="#">Home</a></li>
+            <li class="hideonmobile" ><a href="#">About</a></li>
+            <li class="hideonmobile" ><a href="#">Skills</a></li>
+            <li class="hideonmobile" ><a href="#">Languages</a></li>
+            <li class="hideonmobile" ><a href="#">Hobbies</a></li>
+            <li class="menu" onclick=showSidebar() ><a href="#"><i  class="fa-solid fa-bars"></i></a></li>
+           
+        </ul>
+    
+    </nav>
+   
+    <section class="hero">
+      <div class="img">
+        <dotlottie-player src="https://lottie.host/25253743-1deb-479b-bc8a-9da1f9e40634/5WxwAtR7Eo.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></dotlottie-player>
+      </div>
+      <div class="name">
+        
+        <h1>Hello, I'm <br> <span class="me" >MUTHOJU VASANTH</span> </h1>
+      </div>
+
+     <div class="buttons">
+        <button>contact</button>
+
+
+
+
+        <button type="submit"><a href="mailto:vasanth.muthoju143@gmail.com" target="_blank">Mail me</a>
+
+
+
+     </div>
+     
+    </section>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+           
+        }
+    </script>
+</body>
+</html>
