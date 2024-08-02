@@ -8,7 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
-   
+   font-size: 18px;
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 400,600;
 }
@@ -44,7 +44,11 @@ h1{
 } 
 h1,h2,h3{
     color: hsl(210, 10%, 33%);
+   
 } 
+h2{
+    font-size: 35px;
+}
 p{
    
     color:  hsl(201, 11%, 66%);
@@ -148,6 +152,7 @@ p{
    
 }
 .access-clipboard h2{
+   
     margin-bottom: 13px;
 }
 .access-clipboard p{
